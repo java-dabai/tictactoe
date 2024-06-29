@@ -28,7 +28,7 @@ public class TicTacToe {
         this.board = board;
     }
 
-
+  
 
     public void start() {
         try (Scanner input = new Scanner(System.in);) {
