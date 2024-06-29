@@ -36,7 +36,7 @@ public class TicTacToe {
 
             do {
                 game(input);
-  
+
                 System.out.print("Do you want to do again? （y/n）: ");
                 flag = input.next().charAt(0);
             } while (flag == 'y' || flag == 'Y');
